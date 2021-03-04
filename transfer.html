@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transfer Money</title>
+    </head>
+    <body>
+        <h1>Transfer Money</h1>
+        <button id="Button" class="HomeButton" >Home Page</button>
+        <script type="text/javascript">
+            document.getElementById("Button").onclick = function () {
+            location.href = "index.html";
+            };  
+        </script>
+        <form action>
+            <label for="amt">Enter the Amount:</label><br>
+            <input type="text" id="amt" name="amt" value="ex:- 100"><br>
+
+            <label for="cid">Enter the Customer ID:</label><br>
+            <input type="text" id="cid" name="cid" value="ex:- 2"><br>
+          </form> 
+
+          <button id="transfer" class="trans" >TRANSFER</button>
+        <script type="text/javascript">
+            document.getElementById("transfer").onclick = function () {
+            };  
+        </script>
+          
+    </body>
+</html>
